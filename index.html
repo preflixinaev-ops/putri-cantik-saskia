@@ -540,6 +540,10 @@
     #letter .ln-hint{animation:none;}
   }
 
+  /* ----- surat satu kertas, tanpa slide ----- */
+  #letter .slides{height:auto !important;min-height:0;}
+  #letter .slide{position:relative;opacity:1;visibility:visible;pointer-events:auto;transform:none;}
+
   /* ===== WHY ===== */
   .section-head{text-align:center;margin-bottom:50px;}
   .section-head .eyebrow{font-size:14px;letter-spacing:2px;color:var(--text-muted);margin-bottom:12px;font-family:'Cormorant Garamond',serif;font-style:italic;}
@@ -1232,21 +1236,7 @@
     <span class="dogear" aria-hidden="true"></span>
     <svg class="deco branch" viewBox="0 0 172 56" aria-hidden="true"><path d="M170 3C142 9 120 7 98 20S54 36 22 32" stroke="#a6766a" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M98 20C103 30 98 38 90 45" stroke="#a6766a" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M0,0C4,-5 10,-5 13,-1C9,3 3,4 0,0Z" fill="#c9e2bd" stroke="#9fc58f" stroke-width=".5" transform="translate(128 9) rotate(25)"/><path d="M0,0C4,-5 10,-5 13,-1C9,3 3,4 0,0Z" fill="#c9e2bd" stroke="#9fc58f" stroke-width=".5" transform="translate(70 30) rotate(-150)"/><path d="M0,0C4,-5 10,-5 13,-1C9,3 3,4 0,0Z" fill="#c9e2bd" stroke="#9fc58f" stroke-width=".5" transform="translate(44 33) rotate(20)"/><g transform="translate(152 8) rotate(10) scale(1.0)"><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(0)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(72)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(144)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(216)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(288)"/><circle r="2" fill="#e0587f"/><circle cx="1.1" cy="-3.0" r=".9" fill="#d9a441"/><circle cx="3.2" cy="0.1" r=".9" fill="#d9a441"/><circle cx="0.9" cy="3.1" r=".9" fill="#d9a441"/><circle cx="-2.7" cy="1.8" r=".9" fill="#d9a441"/><circle cx="-2.5" cy="-2.0" r=".9" fill="#d9a441"/></g><g transform="translate(124 12) rotate(40) scale(0.8)"><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(0)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(72)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(144)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(216)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(288)"/><circle r="2" fill="#e0587f"/><circle cx="1.1" cy="-3.0" r=".9" fill="#d9a441"/><circle cx="3.2" cy="0.1" r=".9" fill="#d9a441"/><circle cx="0.9" cy="3.1" r=".9" fill="#d9a441"/><circle cx="-2.7" cy="1.8" r=".9" fill="#d9a441"/><circle cx="-2.5" cy="-2.0" r=".9" fill="#d9a441"/></g><g transform="translate(98 21) rotate(0) scale(1.1)"><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(0)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(72)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(144)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(216)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(288)"/><circle r="2" fill="#e0587f"/><circle cx="1.1" cy="-3.0" r=".9" fill="#d9a441"/><circle cx="3.2" cy="0.1" r=".9" fill="#d9a441"/><circle cx="0.9" cy="3.1" r=".9" fill="#d9a441"/><circle cx="-2.7" cy="1.8" r=".9" fill="#d9a441"/><circle cx="-2.5" cy="-2.0" r=".9" fill="#d9a441"/></g><g transform="translate(70 31) rotate(20) scale(0.85)"><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(0)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(72)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(144)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(216)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(288)"/><circle r="2" fill="#e0587f"/><circle cx="1.1" cy="-3.0" r=".9" fill="#d9a441"/><circle cx="3.2" cy="0.1" r=".9" fill="#d9a441"/><circle cx="0.9" cy="3.1" r=".9" fill="#d9a441"/><circle cx="-2.7" cy="1.8" r=".9" fill="#d9a441"/><circle cx="-2.5" cy="-2.0" r=".9" fill="#d9a441"/></g><g transform="translate(44 34) rotate(60) scale(0.7)"><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(0)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(72)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(144)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(216)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(288)"/><circle r="2" fill="#e0587f"/><circle cx="1.1" cy="-3.0" r=".9" fill="#d9a441"/><circle cx="3.2" cy="0.1" r=".9" fill="#d9a441"/><circle cx="0.9" cy="3.1" r=".9" fill="#d9a441"/><circle cx="-2.7" cy="1.8" r=".9" fill="#d9a441"/><circle cx="-2.5" cy="-2.0" r=".9" fill="#d9a441"/></g><g transform="translate(89 45) rotate(15) scale(0.7)"><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(0)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(72)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(144)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(216)"/><path d="M0,0C-5.5,-3.5 -6.5,-11.5 0,-14C6.5,-11.5 5.5,-3.5 0,0Z" fill="#f9c8da" stroke="#e48bb0" stroke-width=".6" transform="rotate(288)"/><circle r="2" fill="#e0587f"/><circle cx="1.1" cy="-3.0" r=".9" fill="#d9a441"/><circle cx="3.2" cy="0.1" r=".9" fill="#d9a441"/><circle cx="0.9" cy="3.1" r=".9" fill="#d9a441"/><circle cx="-2.7" cy="1.8" r=".9" fill="#d9a441"/><circle cx="-2.5" cy="-2.0" r=".9" fill="#d9a441"/></g><circle cx="22" cy="32" r="2.8" fill="#f4a9c4"/><circle cx="10" cy="31" r="2.2" fill="#f7bfd3"/></svg>
     <div class="slides" id="letterSlides">
-      <article class="slide is-active"><h2 class="split" data-slide data-step="70">Surat Kecil</h2><div class="from split" data-slide data-split="words" data-step="80">dariku untukmu, saskiaa.</div><p class="split salut" data-slide data-split="words" data-step="40">saskia sayangkuuuu.</p><figure class="pol cover"><span class="ph"><img src="fotor1.jpg" alt="" decoding="async" onerror="this.style.display='none'"></span></figure></article>
-      <article class="slide"><p class="split" data-slide data-split="words" data-step="28">happy birthday to the woman who softly changed my worlddd. selamat tanggal 26 untuk perempuan kesayanganku, sesosok yang selalu punya cara paling lembut untuk menenangkan riuhnya jiwaku. dari sekian banyak hal ajaib dan indah yang ada di dunia ini, dipertemukan dan diberi kesempatan untuk berjalan bersama kamu adalah takdir paling manis yang pernah aku terima.</p><p class="split" data-slide data-split="words" data-step="28">aku nulis ini pelan pelan, yaya, supaya tiap katanya sempat sampai ke hati kamu.</p></article>
-      <article class="slide"><p class="split" data-slide data-split="words" data-step="28">to be loved by you is a blessing, but simply knowing that you exist in this world is my greatest comfort. mengetahui bahwa kamu ada, bernafas, dan tersenyum di dunia yang sama denganku aja udah lebih dari cukup untuk memberikan rasa tenang yang gapernah bisa dijelasin sama kata kata. kehadiran yaya itu ibarat rumah dan tempat pulang yang selalu membawa kedamaian.</p><p class="split" data-slide data-split="words" data-step="28">dan kalau suatu hari kamu lupa jalan pulang, kamu selalu boleh pulang ke aku.</p></article>
-      <article class="slide"><p class="split" data-slide data-split="words" data-step="28">di hari ulang tahun kamu ini, aku mau melangitkan doa-doa terbaik buat yayaa. semoga di usia kamu yang baru ini, semesta selalu membalas semua kebaikan hati kamu dengan kebahagiaan yang melimpah tanpa batas. semoga langkah langkah kamu ke depan selalu dipermudah, diselimuti kedamaian, dan dikelilingi oleh hal hal yang ngebuat mata yaya berbinar bahagia. may your day and your year ahead be as gentle, bright, and lovely as your soul.</p></article>
-      <article class="slide"><figure class="pol sm"><span class="ph"><img src="fotor2.jpg" alt="" decoding="async" onerror="this.style.display='none'"></span></figure><p class="split" data-slide data-split="words" data-step="28">tetaplah melangkah dengan senyuman manis kamu itu ya sayang?, disini setiap helai nafas kamu, di setiap proses bertumbuhnya kamu, dan di setiap impian yang lagi kamu perjuangin, inget kalau kamu gapernah sendiri. aku bakal selalu ada di sini menjadi pendukung terbesar kamu, mengagumi setiap kebaikan kamu, dan siap menggenggam tangan kamu kapanpun kamu butuh. kamu adalah sesosok yang luar biasa hebat, dan aku begitu bangga sama kamu.</p></article>
-      <article class="slide"><p class="split" data-slide data-split="words" data-step="28">i want you to know how deeply i admire you. aku selalu dibuat kagum oleh caramu berfikir, kelembutan hatimu, dan bagaimana cara kamu memperlakukan dunia di sekitar kamu dengan penuh kasih.</p><p class="split" data-slide data-split="words" data-step="28">bukan cuma karna kamu pintar atau baik, tapi karna kamu tetap lembut walau dunia nggak selalu lembut sama kamu. itu yang bikin aku jatuh sayang berkali kali, bahkan di hari hari yang paling biasa.</p></article>
-      <article class="slide"><p class="split" data-slide data-split="words" data-step="28">dan di atas segalanya, aku mencintai yaya sepenuhnya, apa adanya, dengan segala tawa, luka, kelebihan, maupun kekurangan yaya. kamu gaaperlu jadi siapa siapa atau membuktikan apapun untuk layak dicintai, karna bagiku, jadi diri kamu sendiri adalah versi yang sangat sempurnaa dan lebih dari cukup. i love you unconditionally, just the way you are.</p><p class="split" data-slide data-split="words" data-step="28">jadi pelan pelan aja ya, yaya. nggak perlu buru buru jadi siapa siapa, aku di sini, sama kamu.</p></article>
-      <article class="slide"><p class="split" data-slide data-split="words" data-step="28">terimaksiii yaa? udah lahir ke dunia ini, terimakasii udah bertumbuh menjadi perempuan yang begitu indah hatinya, dan terimakasii telah menjadi bagian paling berharga dalam hidup aridd.</p><p class="split" data-slide data-split="words" data-step="28">kalau suatu hari kamu capek, inget ya, ada satu orang di sini yang bakal selalu bersyukur kamu pernah ada. kamu bukan beban, kamu bukan cuma harus kuat, kamu adalah alasan ada banyak hari yang aku jalani dengan hati yang lebih ringan.</p></article>
-      <article class="slide"><p class="split" data-slide data-split="words" data-step="28">happy birthday, my love, my safe place, and my greatest blessing. semoga bahagia selalu memelukmu, hari ini dan selamanya. 🤍</p><figure class="pol end"><span class="ph"><img src="fotor3.jpg" alt="" decoding="async" onerror="this.style.display='none'"></span><svg class="seal" viewBox="0 0 48 48" aria-hidden="true"><defs><radialGradient id="sealg" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#f0809f"/><stop offset=".6" stop-color="#d1456d"/><stop offset="1" stop-color="#a62e52"/></radialGradient></defs><path d="M24 2c4 0 6 3 10 3s8 2 9 6 3 7 3 11-3 6-3 10-4 8-8 9-7 3-11 3-7-3-11-3-8-4-9-8-3-6-3-10 3-7 3-11 4-8 8-9 7-3 11-3z" fill="url(#sealg)"/><circle cx="24" cy="24" r="14" fill="none" stroke="#ffd0df" stroke-opacity=".45" stroke-width="1"/><path d="M24 34C15 28 12 23 12 19.5A5.5 5.5 0 0 1 24 17a5.5 5.5 0 0 1 12 2.5C36 23 33 28 24 34z" fill="#ffd9e5" fill-opacity=".9"/></svg></figure><div class="sign split typed" data-slide data-step="70">— Aridd, yang selalu mendoakanmu.</div></article>
-    </div>
-    <div class="letter-nav" role="group" aria-label="Navigasi halaman surat">
-      <span class="ln-hint">geser atau ketuk panah ya</span>
-      <button class="ln-btn ln-prev" type="button" aria-label="Halaman sebelumnya"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
-      <div class="ln-mid"><span class="ln-count" aria-live="polite">1 / 9</span><div class="ln-dots"></div></div>
-      <button class="ln-btn ln-next" type="button" aria-label="Halaman berikutnya"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      <article class="slide is-active"><h2>Surat Kecil</h2><p class="salut">dariku untukmu, saskiaa.</p><figure class="pol cover"><span class="ph"><img src="fotor1.jpg" alt="" decoding="async" onerror="this.style.display='none'"></span></figure><p>happy birthday to the woman who softly changed my worlddd.</p><p>selamat tanggal 26 untuk perempuan kesayanganku, sesosok yang selalu punya cara paling lembut untuk menenangkan riuhnya jiwaku. dari sekian banyak hal ajaib dan indah yang ada di dunia ini, dipertemukan dan diberi kesempatan untuk berjalan bersama kamu adalah takdir paling manis yang pernah aku terima.</p><p>to be loved by you is a blessing, but simply knowing that you exist in this world is my greatest comfort. mengetahui bahwa kamu ada, bernafas, dan tersenyum di dunia yang sama denganku aja udah lebih dari cukup untuk memberikan rasa tenang yang gapernah bisa dijelasin sama kata kata. kehadiran yaya itu ibarat rumah dan tempat pulang yang selalu membawa kedamaian.</p><p>di hari ulang tahun kamu ini, aku mau melangitkan doa-doa terbaik buat yayaa. semoga di usia kamu yang baru ini, semesta selalu membalas semua kebaikan hati kamu dengan kebahagiaan yang melimpah tanpa batas. semoga langkah langkah kamu ke depan selalu dipermudah, diselimuti kedamaian, dan dikelilingi oleh hal hal yang ngebuat mata yaya berbinar bahagia. may your day and your year ahead be as gentle, bright, and lovely as your soul.</p><figure class="pol sm"><span class="ph"><img src="fotor2.jpg" alt="" decoding="async" onerror="this.style.display='none'"></span></figure><p>tetaplah melangkah dengan senyuman manis kamu itu ya sayang?, disini setiap helai nafas kamu, di setiap proses bertumbuhnya kamu, dan di setiap impian yang lagi kamu perjuangin, inget kalau kamu gapernah sendiri. aku bakal selalu ada di sini menjadi pendukung terbesar kamu, mengagumi setiap kebaikan kamu, dan siap menggenggam tangan kamu kapanpun kamu butuh. kamu adalah sesosok yang luar biasa hebat, dan aku begitu bangga sama kamu.</p><p>i want you to know how deeply i admire you. aku selalu dibuat kagum oleh caramu berfikir, kelembutan hatimu, dan bagaimana cara kamu memperlakukan dunia di sekitar kamu dengan penuh kasih. dan di atas segalanya, aku mencintai yaya sepenuhnya, apa adanya, dengan segala tawa, luka, kelebihan, maupun kekurangan yaya. kamu gaaperlu jadi siapa siapa atau membuktikan apapun untuk layak dicintai, karna bagiku, jadi diri kamu sendiri adalah versi yang sangat sempurnaa dan lebih dari cukup. i love you unconditionally, just the way you are.</p><p>terimaksiii yaa? udah lahir ke dunia ini, terimakasii udah bertumbuh menjadi perempuan yang begitu indah hatinya, dan terimakasii telah menjadi bagian paling berharga dalam hidup aridd.</p><p>happy birthday, my love, my safe place, and my greatest blessing. semoga bahagia selalu memelukmu, hari ini dan selamanya. 🤍</p><figure class="pol end"><span class="ph"><img src="fotor3.jpg" alt="" decoding="async" onerror="this.style.display='none'"></span><svg class="seal" viewBox="0 0 48 48" aria-hidden="true"><defs><radialGradient id="sealg" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#f0809f"/><stop offset=".6" stop-color="#d1456d"/><stop offset="1" stop-color="#a62e52"/></radialGradient></defs><path d="M24 2c4 0 6 3 10 3s8 2 9 6 3 7 3 11-3 6-3 10-4 8-8 9-7 3-11 3-7-3-11-3-8-4-9-8-3-6-3-10 3-7 3-11 4-8 8-9 7-3 11-3z" fill="url(#sealg)"/><circle cx="24" cy="24" r="14" fill="none" stroke="#ffd0df" stroke-opacity=".45" stroke-width="1"/><path d="M24 34C15 28 12 23 12 19.5A5.5 5.5 0 0 1 24 17a5.5 5.5 0 0 1 12 2.5C36 23 33 28 24 34z" fill="#ffd9e5" fill-opacity=".9"/></svg></figure></article>
     </div>
   </div>
   </div>
@@ -2607,112 +2597,6 @@
     box.appendChild(e);
   }
   w.appendChild(box);
-})();
-</script>
-<script>
-/* ===== SURAT BERSLIDE (ganti halaman kertas) ===== */
-(function(){
-  var wrap=document.getElementById('letterBook'); if(!wrap) return;
-  var box=wrap.querySelector('.slides');
-  var pages=[].slice.call(box.querySelectorAll('.slide'));
-  var prev=wrap.querySelector('.ln-prev'), next=wrap.querySelector('.ln-next');
-  var count=wrap.querySelector('.ln-count'), dotsBox=wrap.querySelector('.ln-dots'), hint=wrap.querySelector('.ln-hint');
-  var cur=0, inView=false;
-  /* teks surat dibuat polos (tanpa pecahan per kata & tanpa efek) supaya ringan */
-  [].forEach.call(box.querySelectorAll('.split'),function(el){
-    var t=el.getAttribute('aria-label'); if(t==null) return;
-    el.textContent=t; el.removeAttribute('aria-label');
-    el.classList.remove('split','typed');
-  });
-  var reduce=window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var canAnimate=!reduce && typeof box.animate==='function';
-
-  var dots=pages.map(function(_,i){
-    var d=document.createElement('i');
-    d.addEventListener('click',function(){ go(i); });
-    dotsBox.appendChild(d);
-    return d;
-  });
-
-  /* ukuran buku tetap: setinggi halaman terpanjang */
-  function fit(){
-    var h=0; pages.forEach(function(p){ h=Math.max(h,p.offsetHeight); });
-    if(h && box.style.height!==h+'px') box.style.height=h+'px';
-  }
-
-  function ui(){
-    count.textContent=(cur+1)+' / '+pages.length;
-    prev.disabled=(cur===0);
-    next.disabled=(cur===pages.length-1);
-    dots.forEach(function(d,i){ d.classList.toggle('on',i===cur); });
-    pages.forEach(function(p,i){
-      p.setAttribute('aria-hidden',i===cur?'false':'true');
-      p.setAttribute('aria-label',(i+1)+' dari '+pages.length);
-    });
-  }
-
-  var running=[], leaving=null;
-  function settle(){
-    running.forEach(function(a){ try{ a.cancel(); }catch(e){} });
-    running=[];
-    if(leaving){ leaving.classList.remove('is-leaving'); leaving=null; }
-  }
-
-  function go(n){
-    n=Math.max(0,Math.min(pages.length-1,n));
-    if(n===cur) return;
-    settle();                                   /* ketukan cepat: selesaikan dulu animasi sebelumnya */
-    var dir=n>cur?1:-1, out=pages[cur], inc=pages[n];
-    cur=n; ui();
-    if(hint) hint.classList.add('gone');
-    out.classList.remove('is-active'); inc.classList.add('is-active');
-
-    if(canAnimate){
-      out.classList.add('is-leaving'); leaving=out;
-      function X(x){ return 'translateX('+x+'px)'; }
-      /* halaman lama terangkat sedikit & memudar, halaman baru meluncur masuk dari sisi yang sama */
-      var a1=out.animate([{opacity:1,transform:X(0)},{opacity:0,transform:X(-dir*18)}],
-                         {duration:230,easing:'ease-in',fill:'both'});
-      var a2=inc.animate([{opacity:0,transform:X(dir*24)},{opacity:1,transform:X(0)}],
-                         {duration:430,delay:140,easing:'cubic-bezier(.2,.7,.2,1)',fill:'both'});
-      running=[a1,a2];
-      a2.onfinish=settle;
-    }
-    if(window.SFX && SFX.page) SFX.page();
-
-    var r=wrap.getBoundingClientRect();
-    if(r.top<10) window.scrollTo({top:window.pageYOffset+r.top-18,behavior:'auto'});
-  }
-
-  prev.addEventListener('click',function(){ go(cur-1); });
-  next.addEventListener('click',function(){ go(cur+1); });
-
-  var sx=0, sy=0;
-  box.addEventListener('touchstart',function(e){ var t=e.touches[0]; sx=t.clientX; sy=t.clientY; },{passive:true});
-  box.addEventListener('touchend',function(e){
-    var t=e.changedTouches[0], dx=t.clientX-sx, dy=t.clientY-sy;
-    if(Math.abs(dx)>50 && Math.abs(dx)>Math.abs(dy)*1.3) go(dx<0?cur+1:cur-1);
-  },{passive:true});
-
-  document.addEventListener('keydown',function(e){
-    if(!inView) return;
-    var tg=e.target&&e.target.tagName; if(tg==='INPUT'||tg==='TEXTAREA'||tg==='SELECT') return;
-    if(e.key==='ArrowRight') go(cur+1);
-    else if(e.key==='ArrowLeft') go(cur-1);
-  });
-
-  if(window.ResizeObserver){
-    var ro=new ResizeObserver(function(){ fit(); });
-    pages.forEach(function(p){ ro.observe(p); });
-  }
-  window.addEventListener('resize',fit);
-  if(document.fonts&&document.fonts.ready) document.fonts.ready.then(fit);
-
-  new IntersectionObserver(function(es){
-    es.forEach(function(e){ inView=e.isIntersecting; });
-  },{threshold:.15}).observe(wrap);
-
-  fit(); ui();
 })();
 </script>
 
