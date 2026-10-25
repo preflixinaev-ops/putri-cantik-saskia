@@ -30,7 +30,7 @@ window.CONFIG = {
 
   /* --- kirim harapan ke WhatsApp (format 62..., tanpa + atau 0) --- */
   waNumber: "6285893143129",
-  wishPrefix: "Harapan dari Yaya: ",
+  wishPrefix: "harapan yayaa ",
 
   /* --- file foto & musik (taruh sejajar index.html, atau ubah path-nya) --- */
   assets: {
