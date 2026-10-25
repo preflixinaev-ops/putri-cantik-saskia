@@ -13,7 +13,7 @@ window.CONFIG = {
   pageTitle: "Untuk Yayaaa",
 
   /* --- tanggal jadian: [tahun, bulan(0-11), tanggal]. Agustus = 7 --- */
-  jadian: [2025, 7, 3],
+  jadian: [2026, 7, 3],
   jadianLabel: "sejak 3 Agustus",
 
   /* --- PIN ---
